@@ -1,0 +1,16 @@
+# Ignorar el archivo .env que contiene claves API y otras configuraciones sensibles
+.env
+
+# Ignorar el entorno virtual
+env/
+
+# Ignorar archivos de compilación y temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos y directorios de IDEs
+.vscode/
+.idea/
+*.swp
